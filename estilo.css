@@ -1,0 +1,353 @@
+ header{
+    width: 100%;
+    position: fixed;
+    padding: 18px 0;
+    z-index: 1;
+}
+.navbar-nav li a{
+    color: #000;
+    text-transform: uppercase;
+}
+#menu ul .dropdown{
+    color: #fff;
+}
+
+#menu ul .dropdown:hover{
+    color: #fff;
+}
+#menu ul li a:hover{
+    color: #ffe0e0;
+}
+
+#menuHamburguermenu{
+    color: #fff;
+    font-size: 40px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+#sect1{
+    padding-top: 6em;
+}
+#sect1 .container{
+    text-align: center;
+    padding: 50px 0;
+}
+#sect1 .container .p1{ 
+    width: 78%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 12px;
+}
+#sect1 .container span{ 
+    margin: 0 auto;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+#sec2 .container{
+    display: flex;
+    flex-direction: column;
+}
+#sec2 .container h1{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+#sec2 .row{
+    display: flex;
+    gap: 2%;
+}
+#sec2 .row .col-4{
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sec2 .row h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+#sec2 .row .col-4 img{
+    width: 100%;
+}
+
+
+
+
+#sec3{
+    height: auto;
+    margin-top: 6em;
+}
+#sec3 .bginfo{
+    text-align: center;
+    color: #fff;
+}
+#sec3 .bginfo h2{
+    font-size: 30px;
+    padding-top: 30px ;
+}
+#sec3 .bginfo p{
+    font-size: 18px;
+}
+
+#sec3 .tabela{
+    text-align: center;
+}
+
+.card-group{
+    width: 100%;/* 
+    display: flex; */
+    gap: .5%;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.show .show1{
+    width: 33%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.show1 h2{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.show1 img{
+    width: 100%;
+}
+
+.show1Info{
+    background: #fff;
+    padding: 5px;
+    margin-top: -3px;
+}
+.show1Info h3{
+    font-size: 16px;
+    text-align: justify;
+}
+.p1{
+    font-size: 13px;
+    color: #b3aeae;
+    text-align: justify;
+    padding: 10px 0;
+}
+.card-text p{
+    font-size: 13px;
+    color: #000;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.btnShow{
+    padding: 6px 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#contacto{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.contactoMain{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+#contacto .cont{
+    text-align: center;
+}
+#contacto .cont h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+#contacto .cont p{
+    font-size: 16px;
+    padding-bottom: 30px;
+    font-style: italic;
+    color: #c0bdbd;
+}
+
+
+
+
+ .contMain form .form-text{
+    width: 100%;
+    height: auto;
+}
+.contMain form input{
+    padding: 5px 0;
+}
+
+.btnCont{
+    padding: 8px 32px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    display: block;
+    background: #f5f3f3;
+    height: 150px;
+    color: #000;
+    padding-top: 40px;
+}
+.midea{
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+}
+.midea a{
+    color: #5c5b5b;
+    margin: 0 auto;
+}
+.midea a:hover{
+    color: #f5cfcf;
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+    color: #5c5b5b;
+    padding-top: 12px;
+}
+footer p span{
+    text-decoration: underline;
+} 
+
+
+#foter #cima{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575px) {
+    #sect1 .container{
+        padding: 0 10px;
+    }
+    #sect1 .container .p1{
+        font-size: 20px;
+    }
+    #sect1 .container p{
+        font-size: 14px;
+    }
+    #sec2 .container h1{
+        font-size: 20px;
+    }
+    #sec2 .container h2{
+        font-size: 16px;
+    }
+
+    
+    #sec3 .bginfo h2{
+        font-size: 20px;
+    }
+    #sec3 .bginfo p{
+        font-size: 14px;
+    }
+
+    
+    #contacto .cont h1{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    #menu{
+        text-align: center;
+    }
+    #sec3 .card-group{
+        display: block;
+    }
+    #sec3 .card-group .card{
+        margin-bottom: 20px;
+    }
+    
+    #contacto {
+        width: 100%;
+        padding: 0;
+        margin-top: 60px;
+    }
+    #contacto .container {
+        width: 100%;
+        /* background: #000; */
+        display: flex;
+        flex-direction: column;
+    }
+    #contacto .container .contContaCol1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #contacto .container .contContaCol2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #contacto .container .contMain{
+        width: 100%;
+    }
+
+
+
+
+    #sec2 .container{
+        width: 100%;
+        display: block;
+    }
+    #sec2 .container .row{
+        width: 100%;
+        display: block;
+    }
+    #sec2 .container .row .col-4{
+        width: 100%;
+        display: block;
+    }
+    #sec2 .container .row .col-4 h2{
+        margin-bottom: 6px;
+        margin-top: 40px;
+    }
+  }
